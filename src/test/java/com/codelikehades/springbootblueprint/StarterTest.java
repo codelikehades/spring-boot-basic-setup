@@ -30,7 +30,7 @@ class StarterTest {
     }
 
     private ResultActions hitActuatorEndpoint(String endpoint) throws Exception {
-        return mockMvc.perform(get("http://localhost:8081/mgmt/{endpoint}", endpoint));
+        return mockMvc.perform(get("/mgmt/{endpoint}", endpoint));
     }
 
 
