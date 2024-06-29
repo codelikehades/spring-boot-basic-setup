@@ -1,11 +1,11 @@
-package com.codelikehades.springbootbasicsetup;
+package com.codelikehades.springbootblueprint;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BasicSetupApp {
+public class Starter {
     public static void main(String[] args) {
-        SpringApplication.run(BasicSetupApp.class, args);
+        SpringApplication.run(Starter.class, args);
     }
 }
